@@ -1,1 +1,1 @@
-<a href="https://github.com/Bin-Rashid/SB-Bank.git">Visit SB-Bank</a>
+<a href="https://bin-rashid.github.io/SB-Bank/">Visit SB-Bank</a>
