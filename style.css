@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* Login Section Design CSS */
+.hideDisplay{
+    display: none;
+}
+#invalidPassword{
+    display: none;
+    margin-top: 20px;
+}
+#bank-main-section{
+    padding: 100px 0;
+}
+#bank-main-section .login_area h1{
+    margin-bottom: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    color: #E9E197;
+    position: relative;
+}
+#bank-main-section .login_area h1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    border-left: 6px solid #AAE78E;
+    position: relative;
+    margin-right: 10px;
+}
+#bank-main-section .login_area .loginForm{
+    padding: 42px;
+    border: 1px dashed #191919;
+    border-radius: 16px;
+    -webkit-box-shadow: 5px 6px 5px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 5px -6px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 5px -6px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+#bank-main-section .login_area .loginForm  h3{
+    font-size: 24px;
+    color: #191919;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+#bank-main-section .login_area .loginForm form label{
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 15px;
+    font-style: italic;
+    color: #979494;
+
+}
+#bank-main-section .login_area .loginForm form input{
+    padding: 20px 10px;
+    outline: none;
+    border: 1px dashed #191919;
+    color: #191919;
+    transition: all linear .5s;
+    font-size: 15px;
+
+}
+#bank-main-section .login_area .loginForm form input:focus{
+    box-shadow: none;
+
+}
+
+#bank-main-section .login_area .loginForm form .btn{
+    padding: 10px 32px;
+    background: #E9E197;
+    outline: none;
+    border: 1px dashed #191919;
+    color: #191919;
+    transition: all linear .5s;
+
+}
+#bank-main-section .login_area .loginForm form .btn:hover{
+    background: #AAE78E;
+}
+/* Dashboard Area */
+#bank-main-section .dashboard_area{
+    display: none;
+}
+#bank-main-section .dashboard_area h1{
+    margin-bottom: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    color: #191919;
+    position: relative;
+}
+#bank-main-section .dashboard_area h1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    border-left: 6px solid #AAE78E;
+    position: relative;
+    margin-right: 10px;
+}
+#bank-main-section .dashboard_area .cards{
+    display: flex;
+    justify-content: space-between;
+}
+#bank-main-section .dashboard_area .deposit_card{
+    background: #987070;
+    padding: 40px;
+    flex-grow: 1;
+    margin-right: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+#bank-main-section .dashboard_area .withdraw_card{
+    background: #803D3B;
+    padding: 40px;
+    flex-grow: 1;
+    margin-right: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+#bank-main-section .dashboard_area .balance_card{
+    background: #0A6847;
+    padding: 40px;
+    flex-grow: 1;
+    margin-right: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+#bank-main-section .dashboard_area .dashboard-input-deposit-withdrow{
+    padding: 42px;
+    margin-top: 30px;
+    border: 1px dashed #191919;
+    border-radius: 16px;
+    -webkit-box-shadow: 5px 6px 5px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 6px 5px -6px rgba(0,0,0,0.75);
+    box-shadow: 5px 6px 5px -6px rgba(0,0,0,0.75);
+    overflow: hidden;
+}
+
+#bank-main-section .dashboard_area .dashboard-input-deposit-withdrow form label{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    color: #979494;
+
+}
+#bank-main-section .dashboard-input-deposit-withdrow form input{
+    padding: 20px 10px;
+    outline: none;
+    border: 1px dashed #191919;
+    color: #191919;
+    transition: all linear .5s;
+    font-size: 15px;
+
+}
+#bank-main-section .dashboard-input-deposit-withdrow form .ballanceBtn{
+    padding: 10px 28px;
+    background: #E9E197;
+    outline: none;
+    border: 1px dashed #191919;
+    border-radius: 15px;
+    color: #191919;
+    transition: all linear .5s;
+    margin-top: 20px;
+
+}
+#bank-main-section .dashboard-input-deposit-withdrow form .ballanceBtn:hover{
+    background: #AAE78E;
+
+}
+
+/* invalid input */
+#envalidInput{
+    display: none;
+    margin-top: 20px;
+}
+#noBalenceInput{
+    display: none;
+    margin-top: 20px;
+}
